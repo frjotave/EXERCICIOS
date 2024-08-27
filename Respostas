@@ -1,0 +1,49 @@
+// ATIVIDADE 1:
+
+let resultado = function(num) {
+    return num * num;
+};
+console.log(resultado(4));
+
+// ATIVIDADE 2
+
+let msg = function(nome){
+    return 'Olá, ' + nome + '!';
+}
+console.log(msg("Maria"));
+
+// ATIVIDADE 3
+
+let resultado = function(a,b){
+    return a + b;
+}
+console.log(resultado(10,5));
+
+// ATIVIDADE 4
+
+let resultado = function(num){
+    return num % 2 === 0;
+}
+console.log(resultado(7));
+
+//ATIVIDADE 5
+
+let resultado = function(n){
+    if(n===0) return 1;
+    return n * resultado(n-1);
+}
+console.log(resultado(5));
+
+// ATIVIDADE 6
+
+let dobro = function(array){
+    return array.map(n => n *2);
+}
+console.log(dobro([1,2,3]));
+
+// ATIVIDADE 7
+
+let junta = function(txt1, txt2){
+    return txt1 + txt2;
+}
+console.log(junta('Olá', ' Mundo!'));
