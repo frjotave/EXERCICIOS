@@ -1,0 +1,19 @@
+// EXEMPLO1
+const quadrado = num => num * num;
+console.log(quadrado(4));
+
+//EXEMPLO2
+const soma = (a,b) => a+b;
+console.log(soma(5,3));
+
+//EXEMPLO3
+const saudacao = () => "Olá, Mundo!";
+console.log(saudacao());
+
+//EXEMPLO4
+const mult = num => {
+    let result = num *2;
+    return result;
+}
+console.log(mult(7));
+
